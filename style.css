@@ -1,0 +1,207 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 80px;
+  background-color: black;
+  margin: 0;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  display: flex;
+  margin-top: 2.5vh;
+}
+header .logo svg {
+  filter: invert(1);
+  width: 135px;
+}
+.menu{
+  margin-top: 2.2vh;
+  display: flex;
+  
+}
+header .menu nav ul li a {
+  text-decoration: none;
+  padding: 30px 17px;
+  color: #fff;
+  font-weight: 700;
+  font-family: Circular Air Book;
+}
+header .menu nav ul li a:hover {
+  color: #1ed760;
+}
+header .menu nav ul li .Seperation {
+  width: 1px;
+  height: 17px;
+  background: #fff;
+  margin: -4px auto;
+}
+.section1
+{
+  width: 100%;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  padding: 5px 10px 0.70em;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: -1.2px;
+  line-height: 12px;
+  padding-left: 18%;
+  height: 700px;
+  background-image: url('favicon/backgroundimage.png');
+  background-size: cover;
+  
+}
+.lists{
+  display: inline;
+  font-size: 16px;
+}
+
+
+
+
+
+.section1 h1
+{
+  display: block;
+  font-size: 2.3em;
+  width: 950px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 910;
+  margin-top: 21vh;
+  margin: left 100px; 
+  color: var(--text-bright-accent,#1ed760);
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.section12
+{
+  margin-left: 20%;
+  
+ 
+}
+h4{
+  width:100%;
+  font-size: 18px ;
+  color: var(--text-bright-accent,#1ed760);
+  font-weight: 100;
+  margin-top: 16vh;
+  margin-left: 203px;
+  padding-left: 50px ;
+  letter-spacing: 0px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+button{
+  border-radius: 111px;
+  border-style: none;
+  border-color: #1ed760;
+  background-color: #1ed760;
+  height: 8vh;
+  width: 27vh;
+  margin-left: 400px;
+  margin-top: 70px;
+  
+}
+.section2{
+  width: 100%;
+  height: 73vh;
+  background-color: black;
+}
+.logobottom svg {
+  filter: invert(1);
+  width: 135px;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+.block{
+  display: flex;
+}
+.list{
+  margin-left: 30px;
+  display: flex;
+  margin-top: 80px;
+  
+}
+.listhead{
+    color: #919496;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif ;
+}
+.listlinks{
+  display: inline-block;
+  color: #fff;
+    font-size: 15px;
+    font-weight:400;
+    line-height: 2.7;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.section2 .block .list ul li a:hover {
+  color: #1ed760;
+}
+.bottom{
+  display: flex;
+  font-size: small;
+  color: gray;
+}
+.bottom2{
+  margin-left: 570px;
+  margin-top: 40px;
+
+}
+.bottom1 ul {
+  display: flex ;
+  justify-content: space-between;
+  width: 400px;
+  margin-left: 165px;
+  margin-top: 100px;
+}
+.bottomlinks{
+  color: gray;
+}
+.section2 .bottom ul li a:hover {
+  color: #1ed760;
+}
+h5{
+  font-size: 13px;
+  font-weight: 100;
+}
+.btn
+{
+  box-shadow: #1ed760 ;
+}
+
+
+
+
+
+  
+
